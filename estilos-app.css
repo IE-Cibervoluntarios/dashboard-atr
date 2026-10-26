@@ -1,0 +1,83 @@
+/* ==========================================================
+   Moodle App - Estilo Cibervoluntarios
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+:root {
+  /* Variable "maestra" de color que usa la app actual */
+  --primary: #cf2f2a;
+  --primary-shade: #b62a25;
+  --primary-tint: #d4443f;
+  --primary-contrast: #ffffff;
+
+  /* Equivalentes para compatibilidad con versiones algo más antiguas de la app */
+  --ion-color-primary: #cf2f2a;
+  --ion-color-primary-rgb: 207, 47, 42;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #b62a25;
+  --ion-color-primary-tint: #d4443f;
+
+  --ion-font-family: 'Poppins', sans-serif;
+}
+
+/* Tipografía general (refuerzo por si algún componente no hereda --ion-font-family) */
+body, ion-app, ion-content, ion-label, ion-button, ion-item,
+p, span, a, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+h1, h2, h3, h4 { font-weight: 700 !important; }
+
+/* Cabecera superior */
+ion-header ion-toolbar {
+  --background: #cf2f2a;
+  --color: #ffffff;
+  --border-width: 0;
+}
+
+ion-header ion-title,
+ion-header ion-button,
+ion-header ion-back-button,
+ion-header ion-menu-button {
+  --color: #ffffff;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* Botones */
+ion-button {
+  --border-radius: 25px;
+  text-transform: none;
+  font-weight: 500 !important;
+}
+
+/* Pestañas inferiores */
+ion-tab-bar {
+  --background: #ffffff;
+  --border: 1px solid #e5e5e5;
+}
+
+ion-tab-button {
+  --color: #6b6b6b;
+  --color-selected: #cf2f2a;
+}
+
+/* Tarjetas */
+ion-card {
+  border-radius: 16px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Enlaces */
+a { color: #cf2f2a !important; }
+
+/* Barras de progreso */
+ion-progress-bar { --progress-background: #cf2f2a; }
+
+/* Insignias */
+ion-badge {
+  --background: #cf2f2a;
+  --color: #ffffff;
+}
